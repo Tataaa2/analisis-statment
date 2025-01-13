@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load model and vectorizer
-tfidf = joblib.load('models/vectorizer.pkl')
-model = joblib.load('models/model.pkl')
+tfidf = joblib.load('vectorizer.pkl')
+model = joblib.load('model.pkl')
 
 # Configure Streamlit page
 st.set_page_config(page_title="Text Analysis App", layout="wide")
